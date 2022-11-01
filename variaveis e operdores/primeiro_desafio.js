@@ -12,7 +12,7 @@ const precoCombustivel = 4.00;
 const kmPorLitros = 10;
 const distanciaEmKm = 200;
 
-const listrosConsumido = distanciaEmKm/kmPorLitros;
+const listrosConsumido = distanciaEmKm / kmPorLitros;
 const valorGasto = listrosConsumido * precoCombustivel;
 //console.log(valorGasto.toFixed(2));
 console.log(`valor gasto da gasolina: ${valorGasto.toFixed(2)}`);
