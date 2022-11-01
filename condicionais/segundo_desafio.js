@@ -25,7 +25,6 @@ const distanciaEmKm = 200;
 const tipoCombustivel = 'Etanol';
 const listrosConsumido = distanciaEmKm / kmPorLitros;
 
-const valorGasto = listrosConsumido * precoCombustivel;
 //console.log(valorGasto.toFixed(2));
 
 
