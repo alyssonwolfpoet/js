@@ -31,3 +31,8 @@ console.log(main);
 const main2 = main;
 console.log(main2);
 main2();
+
+main = function (){
+    console.log(1);
+}
+main();
