@@ -32,17 +32,17 @@ const main2 = main;
 console.log(main2);
 main2();
 
-main = function (){
+main = function () {
     console.log(1);
 }
 main();
 
 
 //programação web | sites e motores para isolar o codigo de dentro
-(function autochamada(){
+(function autochamada() {
     console.log("função imediatamente invocada");
 })();
 
-(function (){
+(function () {
     console.log("função imediatamente invocada - sem nome");
 })();
