@@ -38,6 +38,11 @@ main = function (){
 main();
 
 
+//programação web | sites e motores para isolar o codigo de dentro
 (function autochamada(){
-    console.log("auto chamada");
+    console.log("função imediatamente invocada");
+})();
+
+(function (){
+    console.log("função imediatamente invocada - sem nome");
 })();
