@@ -36,3 +36,8 @@ main = function (){
     console.log(1);
 }
 main();
+
+
+(function autochamada(){
+    console.log("auto chamada");
+})();
