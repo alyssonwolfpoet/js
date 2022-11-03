@@ -27,3 +27,7 @@ function main() {
     console.log(classificarImc(imc));
 }
 main();
+console.log(main);
+const main2 = main;
+console.log(main2);
+main2();
