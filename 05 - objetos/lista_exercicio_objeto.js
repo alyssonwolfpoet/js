@@ -19,7 +19,7 @@ class Carro {
 }
 
 const uno = new Carro("Fiat", "Prata", 1 / 12);
-console.log(uno.calcularGastoDePercurso(70,5));
+console.log(uno.calcularGastoDePercurso(70, 5));
 
 const palio = new Carro("Fiat", "Preto", 1 / 10);
-console.log(palio.calcularGastoDePercurso(70,5));
+console.log(palio.calcularGastoDePercurso(70, 5));
