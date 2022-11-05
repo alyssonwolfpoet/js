@@ -17,8 +17,8 @@ console.log("\n=================\n");
 //estrutura de repetiçao
 let cont = 0;
 for (let i = 0; i < notas.length; i++) {
-    cont+= notas[i];
-    console.log("nota ",i, ":", notas[i]);
+    cont += notas[i];
+    console.log("nota ", i, ":", notas[i]);
 }
-console.log("somas das notas: ",cont);
-console.log("media das notas: ",cont / notas.length);
+console.log("somas das notas: ", cont);
+console.log("media das notas: ", cont / notas.length);

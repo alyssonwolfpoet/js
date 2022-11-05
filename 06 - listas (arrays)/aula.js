@@ -1,8 +1,8 @@
 const aluno = 'joao;' //atribuição normal
-const aluno2 =  { //objeto literal sem clase
+const aluno2 = { //objeto literal sem clase
     nome: 'joao'
 }
-const alunos = ["joão","victor","marinwa"];
+const alunos = ["joão", "victor", "marinwa"];
 
 console.log(alunos);
 console.log(alunos[2]);
@@ -20,7 +20,7 @@ alunosVazia.push(10);
 console.log(alunosVazia);
 
 console.log("\n=================\n");
-const alunos3 = ['1','2','3'];
+const alunos3 = ['1', '2', '3'];
 console.log(alunos3.pop());
 console.log(alunos3);
 console.log(alunos3.shift());
