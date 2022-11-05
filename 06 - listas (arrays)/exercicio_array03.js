@@ -2,7 +2,13 @@
 let nomes = [];
 nomes.push("Alysson");
 nomes.push("vitor");
+nomes.push("Veridiana");
+nomes.push("kaio");
 
-array.forEach(element => {
-    
-})
+
+for (let i = 0; i < nomes.length; i++) {
+    const v = nomes[i];
+    if(v[0] === 'V' || v[i]==='v'){
+        console.log[v]
+    }
+}
