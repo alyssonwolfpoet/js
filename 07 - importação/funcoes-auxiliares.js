@@ -4,3 +4,9 @@ function gets(){
 function print(text){
     console.log(text);
 }
+
+//module.exports.gets = gets;
+module.exports = {gets,print
+    //gets: gets,
+    //print: print
+};
